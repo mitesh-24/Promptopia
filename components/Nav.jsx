@@ -19,7 +19,7 @@ const Nav = () => {
       setProviders(response);
     }
     setUpProviders();
-  }, [])
+  }, [])                      // Array of dependencies-This is an empty array, so no dependencies, which means it will only run once when the component is initilized
 
   return (
     <nav className='flex-between w-full mb-16, pt-3'>
